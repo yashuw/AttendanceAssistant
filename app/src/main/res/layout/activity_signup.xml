@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/border">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="35dp">
+            <TextView
+                android:layout_width="171dp"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="PROFILE"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                app:fontFamily="cursive" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name : "
+                    android:fontFamily="cursive"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border"
+                    android:hint="eg: Yashwanth"
+                    android:gravity="center"
+                    android:backgroundTint="#ffffff"
+                    android:fontFamily="cursive"
+                    android:textSize="22sp"
+                    android:inputType="text"
+                    tools:ignore="InvalidId" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name : "
+                    android:fontFamily="cursive"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+                <EditText
+                    android:id="@+id/lname"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border"
+                    android:hint="eg: Murarishetti"
+                    android:backgroundTint="#ffffff"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:inputType="text"
+                    tools:ignore="InvalidId" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  E-mail : "
+                    android:fontFamily="cursive"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+                <EditText
+                    android:id="@+id/emailid"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/border"
+                    android:layout_marginLeft="22dp"
+                    android:hint="eg: abc@gmail.com"
+                    android:backgroundTint="#ffffff"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:inputType="text"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Contact : "
+                    android:fontFamily="cursive"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/phno"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#ffffff"
+                    android:gravity="center"
+                    android:hint=""
+                    android:inputType="number"
+                    android:textSize="22sp"
+                    tools:ignore="InvalidId" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp">
+                <Button
+                    android:id="@+id/signup_activating_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

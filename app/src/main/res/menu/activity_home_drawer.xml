@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_check_black_24dp"
+            android:title="@string/menu_post" />
+        <item
+            android:id="@+id/nav_viewattendance"
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            android:title="@string/menu_view" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="@string/menu_edit" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>
